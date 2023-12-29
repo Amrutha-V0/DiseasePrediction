@@ -37,7 +37,7 @@ python-dateutil==2.8.2
 pyzmq==25.0.2
 regex==2023.10.3
 six==1.16.0
-sklearn==0.0.post11
+scikit-learn
 stack-data==0.6.2
 tornado==6.2
 tqdm==4.66.1
