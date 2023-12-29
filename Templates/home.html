@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Symptom Predictor</title>
+</head>
+<body bgcolor="#f5f5f5"> <!-- Set the background color for the entire page -->
+    <table width="50%" align="center" bgcolor=" #C292A1" cellpadding="20" border="0" cellspacing="0" style="border-radius: 8px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); margin-top: 20px;"> <!-- Set the background color for the form container -->
+        <tr>
+            <td>
+                <h1 align="center">Enter Symptoms</h1>
+                <form method="post" action="/predict" align="center">
+                    <label for="symptoms">Symptoms (comma-separated):</label><br>
+                    <input type="text" id="symptoms" name="symptoms" required><br><br>
+                    <input type="submit" value="Predict">
+                </form>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
