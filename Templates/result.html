@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+</head>
+<body bgcolor="#f5f5f5"> <!-- Set the background color for the entire page -->
+    <table width="50%" align="center" bgcolor="#F5F5DC" cellpadding="20" border="0" cellspacing="0" style="border-radius: 8px; box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1); margin-top: 20px;"> <!-- Set the background color for the result container -->
+        <tr>
+            <td>
+                <h1 align="center">Predicted Disease</h1>
+                <p>RF Model Prediction: {{ predictions.rf_model_prediction }}</p>
+                <p>Naive Bayes Prediction: {{ predictions.naive_bayes_prediction }}</p>
+                <p>SVM Model Prediction: {{ predictions.svm_model_prediction }}</p>
+                <p>Final Prediction: {{ predictions.final_prediction }}</p>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
