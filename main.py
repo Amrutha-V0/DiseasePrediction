@@ -14,6 +14,11 @@ with open('models.pkl', 'rb') as f:
 
 # Home route - displays the form to input symptoms
 @app.route('/')
+def front_page():
+    return render_template('front_page.html')
+
+# Route to display the form for symptom input
+@app.route('/home.html')
 def home():
     return render_template('home.html')
 
